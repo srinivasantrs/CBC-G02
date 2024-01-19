@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    mahesh:
+      email: mahesh@gmail.com
+      name: Mahesh BS
+      password: $2b$12$.UlXndWujkwRQpmXIg5cl.JdEwflBck9rAQVDCMM0CJ9II8TwhvrW                  # To be replaced with hashed password
+    kumar:
+      email: kumar@gmail.com
+      name: Kumar
+      password: $2b$12$TMLKrRmXqxnkixablHR6CuHAB6KP.H72j/4ew5Fw4uH.7AfKttbX2
+    teja:
+      email: teja@gmail.com
+      name: Teja kumar
+      password: teja123
+cookie:
+  expiry_days: 30
+  key: "my_app"                   # Must be string
+  name: "login_app"
+preauthorized:
+  emails:
+  - mahesh@gmail.com
